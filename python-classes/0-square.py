@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-"""Empty class Square that defines a square"""
+"""This module defines a class named Square.
+
+"""
 
 
 class Square:
-    """A class square"""
-    def __init__(self,):
-        ""
+    """A class Square which is empty
+
+    """
