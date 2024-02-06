@@ -1,0 +1,27 @@
+#!/usr/bin/python3
+
+"""
+This is the doctest for the add_integer function.
+
+>>> from 0-add_integer.py import add_integer
+>>> add_integer(1, 2)
+3
+>>> add_integer(100, -2)
+98
+>>> add_integer(2)
+100
+>>> add_integer(100.3, -2)
+98
+>>> add_integer(4.5, 5.5)
+9
+>>> add_integer(10, 20.5)
+30
+>>> add_integer(0, 0)
+0
+>>> add_integer(-10, -10)
+-20
+"""
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testfile("tests/0-add_integer.txt", verbose=True)
