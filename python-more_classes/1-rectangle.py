@@ -13,7 +13,6 @@ class Rectangle:
         self.__height = height
         self.__width = width
 
-
     @property
     def height(self):
         """Getter method to retrieve the height of the rectangle."""
