@@ -5,7 +5,7 @@
 
 
 class Rectangle:
-    """This class represent a rectangle by: (based on 0-rectangle.py)
+    """This class represent a rectangle by: (based on 1-rectangle.py)
 
     """
     def __init__(self, width=0, height=0):
@@ -71,4 +71,6 @@ class Rectangle:
         Returns:
             int: The perimeter of the rectangle.
         """
+        if self.__width == 0 or self.__height == 0:
+            return 0
         return (self.__height + self.__width) * 2
