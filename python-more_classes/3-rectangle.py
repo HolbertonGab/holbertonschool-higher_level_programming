@@ -21,8 +21,8 @@ class Rectangle:
         """
         str_rectangle = ""
 
-        if self.__width == "0" or self.__height == "0":
-            return []
+        if self.__width == 0 or self.__height == 0:
+            return ""
 
         for y in range(self.__height):
             for x in range(self.__width):
