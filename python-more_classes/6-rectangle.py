@@ -55,7 +55,6 @@ class Rectangle:
         Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
 
-
     @property
     def height(self):
         """Getter method to retrieve the height of the rectangle."""
