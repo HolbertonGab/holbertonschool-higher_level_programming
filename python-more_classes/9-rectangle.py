@@ -7,6 +7,34 @@
 class Rectangle:
     """This class represent a rectangle by: (based on 8-rectangle.py)
 
+    Atributes:
+        __width: the width of the Rectangle
+        __height: the height of the Rectangle
+        number_of_instances: the number of instances
+        print_symbol: symbole using to print the Rectangle
+
+    Functions:
+        __init__: initialise a Rectangle
+        __del__: delete the instance of Rectangle
+        __str__: print the Rectangle with the character #
+        __repr__: returns a string representation of the rectangle
+        area: returns the Rectangle area
+        perimeter: returns the Rectangle perimeter
+
+    @property
+        width: access to width
+        height: access to height
+
+    @atribute.setter
+        width: change the width
+        height: change the height
+
+    @staticmethod:
+        bigger_or_equal: returns the biggest rectangle based on the area
+
+    @classmethod:
+        square: returns a new Rectangle instance with width == height == size
+
     """
     number_of_instances = 0
     print_symbol = "#"
